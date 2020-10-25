@@ -1,19 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project-modules id="moduleCoreId" project-version="2.0">
-  <wb-module deploy-name="jsfMaven">
-    <property name="context-root" value="jsfMaven"/>
-    <wb-resource deploy-path="/" source-path="src/main/webapp"/>
-    <property name="java-output-path" value="/target/classes"/>
-    <dependent-module archiveName="javax.faces-2.3.9.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/org/glassfish/javax.faces/2.3.9/javax.faces-2.3.9.jar">
-      <dependency-type>uses</dependency-type>
-    </dependent-module>
-    <dependent-module archiveName="weld-servlet-shaded-3.1.2.Final.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/org/jboss/weld/servlet/weld-servlet-shaded/3.1.2.Final/weld-servlet-shaded-3.1.2.Final.jar">
-      <dependency-type>uses</dependency-type>
-    </dependent-module>
-    <dependent-module archiveName="primefaces-8.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/M2_REPO/org/primefaces/primefaces/8.0/primefaces-8.0.jar">
-      <dependency-type>uses</dependency-type>
-    </dependent-module>
-    <wb-resource deploy-path="/WEB-INF/classes" source-path="src"/>
-    <wb-resource deploy-path="/WEB-INF/classes" source-path="target/generated-sources/annotations"/>
-  </wb-module>
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+      
+    <wb-module deploy-name="jsfMaven">
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/target/generated-sources/annotations"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp"/>
+            
+        <property name="context-root" value="jsfMaven"/>
+            
+        <property name="java-output-path" value="/target/classes"/>
+          
+    </wb-module>
+    
 </project-modules>
